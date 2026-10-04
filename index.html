@@ -253,7 +253,7 @@ const shared=()=>{const r=Object.assign({},S);delete r.tab;delete r.fInn;return 
    2. Paste its address below, e.g. https://my-team-default-rtdb.firebaseio.com
    3. Add the rules and the secret edit code described in the setup notes.
    Leave DB_URL empty and the app works on each phone on its own. */
-const DB_URL='';
+const DB_URL='https://something-default-rtdb.firebaseio.com.';
 const CK='dugout-edit-code';
 let ready=false;
 const getCode=()=>{try{return localStorage.getItem(CK)||''}catch(e){return ''}};
